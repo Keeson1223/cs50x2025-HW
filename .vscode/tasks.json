@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build with CS50 Library", 
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",                    
+                "${file}",                
+                "${workspaceFolder}/cs50.c", 
+                "-o",                     
+                "${fileDirname}/${fileBasenameNoExtension}" 
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true 
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
