@@ -16,16 +16,16 @@ int main(void)
             {
                 int A = temporary_number % 10;
                 int B = temporary_number / 10;
-                sum =+ A + B;
+                sum += A + B;
             }
-            else (temporary_number <= 9);
+            else
             {
-                sum =+ temporary_number;
+                sum += temporary_number;
             }
         }
-        else (position % 2 == 1);
+        else
         {
-            sum =+ digit;
+            sum += digit;
         }
         number = number / 10;
         
